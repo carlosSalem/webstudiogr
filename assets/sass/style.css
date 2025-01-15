@@ -5551,3 +5551,36 @@ Testimonial
 .cookie-link:hover {
   color: #0056b3; /* Azul más oscuro al hover */
 }
+/* Botón WhatsApp flotante */
+.whatsapp-float {
+  display: none;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 70px; /* Aumentamos este valor para subirlo */
+  right: 4px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 9999;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float i {
+  line-height: 50px;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 767px) {
+  .whatsapp-float {
+      display: block;
+  }
+}
