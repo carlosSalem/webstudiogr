@@ -5724,3 +5724,103 @@ Testimonial
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/*oferta especia area 650*/
+.landing__offer__area-content-price {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.landing__offer__area-content-price .price-before {
+  display: block;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.landing__offer__area-content-price .price-before del {
+  color: #ff0000;
+}
+
+.landing__offer__area-content-price h3 {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.landing__offer__area-content-price .price-save {
+  display: block;
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.landing__offer__area-content-price .price-included {
+  display: block;
+  font-size: 16px;
+  color: #666;
+}
+.landing__offer__area {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing__offer__area-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.landing__offer__area-content-price {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.landing__offer__area-content-price h3 {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.landing__offer__area-content-price span {
+  font-size: 16px;
+  color: #666;
+}
+
+.landing__offer__area-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.landing__offer__area-list li i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.landing__offer__area-image-item {
+  position: relative;
+}
+
+.landing__offer__area-image-item-badge {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background: var(--primary-color);
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  transform: rotate(15deg);
+}
