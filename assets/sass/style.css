@@ -5824,3 +5824,89 @@ Testimonial
   font-weight: bold;
   transform: rotate(15deg);
 }
+
+/*kit digital area*/
+.kit__digital__area {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.kit__digital__area-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.kit__digital__area-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.kit__digital__area-list li i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.kit__digital__area-image {
+  position: relative;
+  padding: 30px;
+}
+
+.kit__digital__area-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.kit__digital__area-image-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--primary-color);
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  transform: rotate(15deg);
+}
+/*area servicios*/
+.services__area-item-icon {
+  font-size: 48px; /* Aumenta el tamaño del icono */
+  height: 100px; /* Aumenta el área del contenedor */
+  width: 100px; /* Aumenta el área del contenedor */
+  line-height: 100px; /* Centra verticalmente el icono */
+  background: #f8f9fa; /* Fondo claro para el icono */
+  border-radius: 50%; /* Hace el contenedor circular */
+  margin: 0 auto 25px; /* Centra y añade espacio debajo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.services__area-item-icon i {
+  font-size: 48px; /* Tamaño específico para los iconos de Font Awesome */
+  color: var(--primary-color); /* Color principal de tu web */
+}
+
+.services__area-item-icon img {
+  width: 48px; /* Ajusta el tamaño de las imágenes de iconos */
+  height: auto;
+}
+
+.services__area-item:hover .services__area-item-icon {
+  background: var(--primary-color);
+  transform: rotateY(360deg);
+}
+
+.services__area-item:hover .services__area-item-icon i {
+  color: #ffffff;
+}
