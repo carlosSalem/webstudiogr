@@ -2,16 +2,4 @@ User-agent: *
 Allow: /
 Allow: /sitemap.xml
 Allow: /assets/
-Disallow: /admin/
-Disallow: /cgi-bin/
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/themes/
-Disallow: /*.php$
-Disallow: /*?*
-Disallow: /*?
-Disallow: /*~
-Disallow: /*backup
-Disallow: /*.sql
 Sitemap: https://webstudiogr.es/sitemap.xml
