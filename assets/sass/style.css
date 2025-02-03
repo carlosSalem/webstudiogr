@@ -5910,3 +5910,55 @@ Testimonial
 .services__area-item:hover .services__area-item-icon i {
   color: #ffffff;
 }
+/* Prevenir scroll horizontal */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Ajustar contenedores para viewport móvil */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+/* Corregir ancho en secciones específicas */
+.header__area-menubar-area {
+  padding: 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner__area,
+.services__area,
+.about__area,
+.team__area,
+.testimonial__area,
+.footer__area {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ajustar imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .row {
+      margin-left: 0;
+      margin-right: 0;
+  }
+  
+  [class*="col-"] {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  
+  .header__area-topbar-area {
+      padding: 12px 15px;
+  }
+}
